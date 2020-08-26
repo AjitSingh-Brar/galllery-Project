@@ -1,0 +1,208 @@
+.img-container{
+    margin:24px;
+    box-shadow:#555 1px 2px 8px 1px;
+    min-height: 660px;
+    width: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+#caption{
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  padding: 18px;
+  color: #222;
+  background-color: #f5f5f5;
+  border: 1px solid #bbb;
+  width: 900px;
+}
+
+.caption-row{
+  padding: 24px;
+  text-align: center;
+}
+
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+
+    .img-container{
+      margin:24px;
+      box-shadow:#555 1px 2px 8px 1px;
+      min-height: 300px;
+      width: 400px;
+      background-position: center;
+      background-repeat: no-repeat;
+      align-content: center;
+  }
+  
+  #caption{
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    padding: 18px;
+    color: #222;
+    background-color: #f5f5f5;
+    border: 1px solid #bbb;
+    width: 900px;
+  }
+  
+  .caption-row{
+    padding: 24px;
+    text-align: center;
+  }
+
+  }
+
+  
+/* Portrait IpHoneX*/
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+  
+  .img-container{
+    margin:24px;
+    box-shadow:#555 1px 2px 8px 1px;
+    min-height: 650px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+#caption{
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  color: #222;
+  background-color: #f5f5f5;
+  border: 1px solid #bbb;
+  width: 1000px;
+}
+
+.caption-row{
+  padding: 24px;
+  text-align: center;
+}
+
+}
+
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+
+
+  .img-container{
+    margin:24px;
+    box-shadow:#555 1px 2px 8px 1px;
+    min-height: 670px;
+    width: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+#caption{
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  padding: 18px;
+  color: #222;
+  background-color: #f5f5f5;
+  border: 1px solid #bbb;
+  width: 900px;
+}
+
+.caption-row{
+  padding: 24px;
+  text-align: center;
+}
+}
+
+
+
+
+/* IPhone 6, 7, 8 */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+
+    
+  .img-container{
+    margin:24px;
+    box-shadow:#555 1px 2px 8px 1px;
+    min-height: 500px;
+    width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+#caption{
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  padding: 18px;
+  color: #222;
+  background-color: #f5f5f5;
+  border: 1px solid #bbb;
+  width: 900px;
+}
+
+.caption-row{
+  padding: 24px;
+  text-align: center;
+}
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    
+  .img-container{
+    margin:24px;
+    box-shadow:#555 1px 2px 8px 1px;
+    min-height: 500px;
+    width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+#caption{
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  padding: 18px;
+  color: #222;
+  background-color: #f5f5f5;
+  border: 1px solid #bbb;
+  width: 900px;
+}
+
+.caption-row{
+  padding: 24px;
+  text-align: center;
+}
+}
